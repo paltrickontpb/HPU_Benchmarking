@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -Wall -Werror -fno-strict-aliasing -ggdb -O2 -shared -Wl,-soname,libadd_lib.so -o libadd_lib.so CMakeFiles/add_lib.dir/add_f32.cpp.o  libadd_f32.a 

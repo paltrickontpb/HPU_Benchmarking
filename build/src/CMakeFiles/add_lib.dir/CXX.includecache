@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/protox/habana/HPU_Benchmarking/src/add_f32.cpp
+vector
+-
+cstring
+-
+iostream
+-
+add_f32.hpp
+/home/protox/habana/HPU_Benchmarking/src/add_f32.hpp
+
+/home/protox/habana/HPU_Benchmarking/src/add_f32.hpp
+gc_interface.h
+/home/protox/habana/HPU_Benchmarking/src/gc_interface.h
+
+/usr/lib/habanatools/include/gc_interface.h
+stdint.h
+-
+
