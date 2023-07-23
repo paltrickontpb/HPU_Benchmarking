@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/protox/habana/HPU_Benchmarking/custom_TF_div/src/customdiv_fwd_f32.cpp
+cstring
+-
+customdiv_fwd_f32.hpp
+/home/protox/habana/HPU_Benchmarking/custom_TF_div/src/customdiv_fwd_f32.hpp
+
+/home/protox/habana/HPU_Benchmarking/custom_TF_div/src/customdiv_fwd_f32.hpp
+gc_interface.h
+/home/protox/habana/HPU_Benchmarking/custom_TF_div/src/gc_interface.h
+
+/usr/lib/habanatools/include/gc_interface.h
+stdint.h
+-
+

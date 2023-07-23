@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -Wall -Werror -fno-strict-aliasing -ggdb -O2 -shared -Wl,-soname,libtpc_div_lib.so -o libtpc_div_lib.so CMakeFiles/tpc_div_lib.dir/customdiv_fwd_f32.cpp.o  libcustomdiv_fwd_f32.a 
