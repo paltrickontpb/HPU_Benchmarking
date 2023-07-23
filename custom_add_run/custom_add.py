@@ -6,7 +6,7 @@ import torch
 import os
 import habana_frameworks.torch.core
 
-custom_add_op_lib_path = "../build/src/add_lib.so"
+custom_add_op_lib_path = "../build/src/libadd_lib.so"
 my_dir = os.path.realpath(__file__)
 my_len = my_dir.rfind('/')
 base_dir = my_dir[:my_len]
